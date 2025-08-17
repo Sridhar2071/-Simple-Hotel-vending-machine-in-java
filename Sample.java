@@ -27,12 +27,12 @@
 	        	int a=sc.nextInt();
 	        	if(a ==q*80)
 	        	{
-	        		System.out.println("Your ordrer is placed sir please wait");
+	        		System.out.println("Your order is placed sir please wait");
 	        		totalbill+=r;
 	        		}
 	        	else
 	        	{
-	        		System.out.println("Wrong payment sir.Order canclled");
+	        		System.out.println("Wrong payment sir.Order cancelled");
 	        	}
 	        	break;
 	 case 2:
@@ -45,12 +45,12 @@
 	        	 a=sc.nextInt();
 	        	if(a ==q*100)
 	        	{
-	        		System.out.println("Your ordrer is placed sir please wait");
+	        		System.out.println("Your order is placed sir please wait");
 	        		totalbill+=r;
 	        	}
 	        	else
 	        	{
-	        		System.out.println("Wrong payment sir.Order canclled");
+	        		System.out.println("Wrong payment sir.Order cancelled");
 	        	}
 	        	break;
 	 case 3:
@@ -63,12 +63,12 @@
 			 	 a=sc.nextInt();
 			 	if(a ==q*120)
 			 	{
-			 		System.out.println("Your ordrer is placed sir please wait");
+			 		System.out.println("Your order is placed sir please wait");
 			 		totalbill+=r;
 			 	}
 			 	else
 			 	{
-			 		System.out.println("Wrong payment sir.Order canclled");
+			 		System.out.println("Wrong payment sir.Order cancelled");
 			 	}
 			 	break;
 	 case 4:
@@ -81,12 +81,12 @@
 			 	 a=sc.nextInt();
 			 	if(a ==q*100)
 			 	{
-			 		System.out.println("Your ordrer is placed sir please wait");
+			 		System.out.println("Your order is placed sir please wait");
 			 		totalbill+=r;
 			 	}
 			 	else
 			 	{
-			 		System.out.println("Wrong payment sir.Order canclled");
+			 		System.out.println("Wrong payment sir.Order cancelled");
 			 	}
 			 	break;
 	 case 5:
@@ -99,12 +99,12 @@
 			 	a=sc.nextInt();
 			 	if(a ==q*35)
 			 	{
-			 		System.out.println("Your ordrer is placed sir please wait");
+			 		System.out.println("Your order is placed sir please wait");
 			 		totalbill+=r;
 			 	}
 			 	else
 			 	{
-			 		System.out.println("Wrong payment sir.Order canclled");
+			 		System.out.println("Wrong payment sir.Order cancelled");
 			 	}
 		 	    break;
 		    
@@ -118,7 +118,7 @@
 	    while(s.equalsIgnoreCase("Yes"));
 	    
 	    System.out.println("Your total amount is:"+ totalbill);
-	    System.out.println("Thankyou " + (name)+" please visite again");
+	    System.out.println("Thankyou " + (name)+" please visit again");
 	    }
 	    
 	}
@@ -128,3 +128,4 @@
 		       
 		    
 		
+
